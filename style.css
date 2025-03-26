@@ -1,3 +1,6 @@
+
+/*  estilo generar del sitio web */
+
 * {
     margin: 0;
     padding: 0;
@@ -63,14 +66,14 @@ header nav ul li a {
     margin: 20px;
 
     color: #ffcc00;
-    /* Cambia este color por el que desees */
+    
     text-decoration: none;
     font-weight: bold;
 }
 
 header nav ul li a:hover {
     color: #ffffff;
-    /* Cambia el color al pasar el cursor */
+   
     text-decoration: underline;
 }
 
@@ -91,6 +94,7 @@ header nav ul li a:hover {
     color: yellow;
 }
 
+/*  estilo pagina principal */
 
 .productos {
     padding: 40px 20px;
@@ -202,6 +206,8 @@ footer h6 {
     font-size: 14px;
 }
 
+/*  estilo de pagina Sobrenosotros */
+
 .Sobrenosotros {
 
     text-align: center;
@@ -220,6 +226,7 @@ footer h6 {
 .nuestroequipo {
     padding: 40px 20px;
     text-align: center;
+    background-color: rgb(113, 175, 184);
 }
 
 
@@ -257,12 +264,13 @@ footer h6 {
 
 .nuestroequipo article h4 {
     font-size: 18px;
+    color: black;
     margin-bottom: 10px;
 }
 
 .nuestroequipo article p {
     font-size: 14px;
-    color: #666;
+    color: black;
     margin-bottom: 10px;
 }
 
@@ -287,8 +295,13 @@ footer h6 {
 
 
 .valores {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
     text-align: center;
-    margin: 50px 20px;
+   padding: 20px;
+   min-height: 100px;
+    background-color: yellow;
 }
 
 .valores h4 {
@@ -297,13 +310,17 @@ footer h6 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
 }
+.valores p{
 
+    text-align: center;
+}
 
 strong {
 
     color: black;
 }
 
+/*  estilo de pagina productos */
 
 .content {
     display: flex;
@@ -328,7 +345,7 @@ strong {
     box-sizing: border-box;
     flex-shrink: 0;
     border: 1px solid #ccc;
-    /* Borde sólido */
+    
 }
 
 
