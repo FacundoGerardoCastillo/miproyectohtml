@@ -37,7 +37,9 @@ header {
 }
 
 header h1 {
+    font-weight: bold;
     color: white;
+    
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -52,13 +54,14 @@ header nav ul {
     display: flex;
     justify-content: center;
     gap: 20px;
-    color: white;
+   
     text-decoration: none;
     margin: 20px;
     font-size: 16px;
 }
 
 header nav ul li a {
+    font-weight: bold;
     color: #ffcc00; 
     text-decoration: none;
     font-weight: bold;
@@ -66,6 +69,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
+    font-weight: bold;
     color: #ffffff;
     text-decoration: underline;
 }
@@ -74,6 +78,7 @@ header nav ul li a:hover {
 
 .bienvenida {
     background-color: #4a4a4a;
+    font-weight: bold;
     color: white;
     text-align: center;
     padding: 50px 20px;
@@ -103,6 +108,8 @@ header nav ul li a:hover {
     margin-bottom: 30px;
     text-align: center;
     display: block;
+    font-weight: bold;
+    color: black;
 }
 
 
@@ -130,6 +137,8 @@ header nav ul li a:hover {
 }
 
 .productos article h4 {
+    font-weight: bold;
+    color: black;
     font-size: 18px;
     margin-bottom: 10px;
 }
@@ -141,7 +150,9 @@ header nav ul li a:hover {
 }
 
 .productos article h5 {
+    
     font-size: 16px;
+    font-weight: bold;
     color: #333;
     margin-bottom: 10px;
 }
@@ -156,7 +167,7 @@ header nav ul li a:hover {
 }
 
 .productos article a:hover {
-    background-color: #555;
+    background-color: blue;
 }
 
 
@@ -167,6 +178,8 @@ header nav ul li a:hover {
 }
 
 .categorias h3 {
+    font-weight: bold;
+    color: black;
     font-size: 24px;
     margin-bottom: 30px;
 }
@@ -186,11 +199,14 @@ header nav ul li a:hover {
 }
 
 .categorias article h4 {
+    font-weight: bold;
+    color: black;
     font-size: 18px;
 }
 
 footer {
     background-color: #2a2a2a;
+    font-weight: bold;
     color: white;
     text-align: center;
     padding: 20px;
@@ -198,6 +214,8 @@ footer {
 }
 
 footer h6 {
+    font-weight: bold;
+   
     font-size: 14px;
 }
 
@@ -212,7 +230,8 @@ footer h6 {
 }
 
 .Sobrenosotros h2 {
-
+    font-weight: bold;
+    color: black;
     font-size: 32px;
     margin-bottom: 10px;
 
@@ -221,7 +240,7 @@ footer h6 {
 .nuestroequipo {
     padding: 40px 20px;
     text-align: center;
-    background-color: rgb(113, 175, 184);
+    background-color: aqua;
 }
 
 
@@ -230,6 +249,8 @@ footer h6 {
     margin-bottom: 30px;
     text-align: center;
     display: block;
+    font-weight: bold;
+    color: black;
 }
 
 
@@ -259,6 +280,7 @@ footer h6 {
 
 .nuestroequipo article h4 {
     font-size: 18px;
+    font-weight: bold;
     color: black;
     margin-bottom: 10px;
 }
@@ -271,6 +293,7 @@ footer h6 {
 
 .nuestroequipo article h5 {
     font-size: 16px;
+    font-weight: bold;
     color: #333;
     margin-bottom: 10px;
 }
@@ -284,9 +307,6 @@ footer h6 {
     border-radius: 5px;
 }
 
-.nuestroequipo article a:hover {
-    background-color: #555;
-}
 
 
 .valores {
@@ -301,6 +321,7 @@ footer h6 {
 
 .valores h4 {
     text-align: center;
+    font-weight: bold;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
@@ -376,15 +397,18 @@ strong {
 
 .main-products {
     width: 80%;
-    /* Ocupa el resto del espacio */
+   
     box-sizing: border-box;
 }
 
 .titulo-productos {
+    font-weight: bold;
+    color: black;
     font-size: 24px;
     text-align: center;
-    /* Centra el h3 */
-    margin: 20px 0;
+   
+    margin: 25px 0;
+    padding: 10px;
 }
 
 .products-container {
@@ -409,6 +433,8 @@ strong {
 }
 
 .product h4 {
+    font-weight: bold;
+    color: black;
     font-size: 18px;
     margin: 10px 0;
 }
@@ -420,8 +446,10 @@ strong {
 }
 
 .product h5 {
+    font-weight: bold;
+    color: black;
     font-size: 16px;
-    color: #333;
+    
     margin: 10px 0;
 }
 
@@ -449,7 +477,11 @@ strong {
    
 }
 
+table{
 
+   margin: 30px 15px;
+   padding: 15px;
+}
 
 table, th, td{
    
@@ -467,9 +499,10 @@ th, td{
 }
 
 th{
-
-    background-color: grey;
+    font-weight: bold;
     color: #ffffff;
+    background-color: grey;
+    
     
 }
 
@@ -480,10 +513,17 @@ td{
 }
 
 caption{
-    color: black;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
     text-align: center;
 }
+span{
+
+    font-weight: bold;
+    color: black;
+}
+
