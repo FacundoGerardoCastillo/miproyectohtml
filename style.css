@@ -563,6 +563,8 @@ form label {
     margin-bottom: 25px;
     padding: 10px;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 form input[type="text"],
@@ -608,6 +610,8 @@ form label input[type="checkbox"],
 form label input[type="radio"] {
     margin-right: 10px;
     display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
     
 }
 
@@ -646,7 +650,8 @@ button[type="submit"] {
    gap: 15px;
  padding: 10px;
  border: 0;
-  
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 18px;
 }
 
 .Categoríasdeinterés
@@ -656,5 +661,7 @@ button[type="submit"] {
     flex-direction: row;
     padding: 10px;
     border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
