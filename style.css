@@ -526,4 +526,135 @@ span{
     font-weight: bold;
     color: black;
 }
+main.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    gap: 40px;
+    padding: 40px 20px;
+    width: 100%; /* Asegura que ocupe todo el ancho del body */
+    margin: 0; /* Elimina márgenes */
+}
+
+/* Estilo del formulario */
+form {
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+    background-color: red;
+    padding: 50px;
+   
+    border: 0;
+    width: 1000px; /* Ajusta según el diseño */
+}
+
+form h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+form label {
+   
+    margin-bottom: 25px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+   
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+
+form input[type="text"]:hover{
+
+    background-color: #ffcc00;
+}
+
+
+form textarea {
+    height: 100px;
+    resize: none;
+}
+form textarea:hover{
+
+    background-color: #ffcc00;
+}
+
+form fieldset {
+ 
+    padding: 10px;
+    margin: 20px 0;
+    
+}
+
+form legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+form label input[type="checkbox"],
+form label input[type="radio"] {
+    margin-right: 10px;
+    display: inline-block;
+    
+}
+
+
+
+
+button {
+    display: inline-block;
+   padding: 8px;
+   background-color: #3a3a3a;
+   border-radius: 20px;
+   margin: 7px;
+   
+    
+}
+
+button[type="reset"] {
+    background-color: #ccc;
+    color: #333;
+    
+}
+
+button[type="submit"] {
+    background-color: #1C2526;
+    color: #FFFFFF;
+}
+
+ button:hover {
+    opacity: 0.9;
+}
+.Quierosuscribirme{
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: flex-start;
+   gap: 15px;
+ padding: 10px;
+ border: 0;
+  
+}
+
+.Categoríasdeinterés
+
+{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: 0;
+}
 
